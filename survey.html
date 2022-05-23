@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coffee_survey</title>
+</head>
+<body>
+    <header>
+        <h1>All About Coffee</h1>
+      <!-- nav bar start from here  -->
+      <nav>
+        <ul>
+          <li><a href="index.html"> Home</a></li>
+          <li><a href="rosting.html">Roasting</a> </li>
+          <li><a href="grinding.html">Grinding</a> </li>
+          <li><a href="brewing.html"> Brewing</a></li>
+          <li><a href="drinks.html">Drinks</a> </li>
+          <li><a href="survey.html">Coffee Survey</a> </li>
+        </ul>
+    
+    
+      </nav>
+    
+      </header>
+      <h1>Coffee survey</h1>
+    <fieldset>
+        <legend>Personal information</legend>
+    <form action="coffe_survey.php" method="post">
+    Your Name <br>
+    <input type="text" name="name" id="" required size="40"><br>
+    Email <br>
+    <input type="email" name="email" id="" required placeholder="Enter your valid email address" size="40"><br>
+    </fieldset>
+    <fieldset>
+    <legend>Your coffee prepration</legend><br>
+
+Tell us your coffee perpration method <br>
+<textarea name="perpration" id="" cols="40" rows="6"></textarea><br>
+ How do you Drink your coffee? <br>
+  <input type="checkbox" name="drink" id="" value="suger">with suger <br>
+  <input type="checkbox" name="drink" id="" value="cream">with cream <br>
+<br>
+Do you gring your beans? <br>
+<input type="radio" name="bb" id="" value="yes">yes <br>
+<input type="radio" name="bb" id="" value="no">no <br>
+
+  What is your favorite coffee drink?
+  <select name="favorite" id=""><br>
+ <option value="">Please select the vlaue</option>
+ <option value="drip">Drip coffee</option>
+ <option value="french">french press</option>
+ <option value="espresso">espresso</option>
+ <option value="latte">latte</option>
+ <option value="flavored">flavored</option>
+
+  </select><br>
+  
+  <input type="reset" value="Reset">
+  <input type="submit" value="Submit">
+    </fieldset>
+</form>
+    <footer><nav>
+        <ul>
+          <li><a href="index.html"> Home</a></li>
+          <li><a href="rosting.html">Roasting</a> </li>
+          <li><a href="grinding.html">Grinding</a> </li>
+          <li><a href="brewing.html"> Brewing</a></li>
+          <li><a href="drinks.html">Drinks</a> </li>
+          <li><a href="survey.html">Coffee Survey</a> </li>
+        </ul>
+      
+      
+      </nav>
+      </footer>
+        <a href="https://github.com/prabhjot-singh11" target="_blank">&copy;prabhjot singh</a>
+    
+
+</body>
+</html>
